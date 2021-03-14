@@ -1,0 +1,519 @@
+/*Google Fonts Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*============
+    Global CSS
+=============*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3d2514;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/*============
+    Header CSS
+=============*/
+header{
+    background: #daac00;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0 255 231 / 70%);
+    font-size: 25px;
+    font-weight: 700;
+    transition: 1s ease-in-out;
+}
+.form-control{
+    background: #fcc302;
+    border-radius: 0px;
+    border: none;
+    width: 55%;
+    color: #ffffff;
+}
+.btn-outline-success {
+    background: #00bec9;
+    border: none;
+    border-radius: 0px;
+    margin-left: -7px;
+}
+
+/*============
+    Banner CSS
+=============*/
+.banner-section{
+    background: #fcc302;
+    padding: 100px 0;
+}
+.banner-section h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 500;
+}
+.banner-section h2{
+    color: #fff;
+    font-size: 53px;
+    font-weight: 500;
+}
+.banner-section p{
+    font-size: 25px;
+    margin-top: 35px;
+    color: #fff;
+}
+.btn-banner1{
+    margin-top: 15px;
+    background: #00bec9;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #fff;
+}
+.btn-banner2{
+    margin-top: 15px;
+    background: #fcc302;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #fff;
+    border: 2px solid;
+    margin-left: 20px;
+}
+.banner-img{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+/*============
+    Video1 CSS
+=============*/
+.video-section1{
+    padding: 100px 0 30px;
+    position: relative;
+}
+.video-section1 h1{
+    margin-top: 70px;
+    font-size: 47px;
+    font-weight: 500;
+}
+.video-section1 p{
+    font-size: 29px;
+    margin-top: 35px;
+}
+.video-section1 .fa{
+    position: absolute;
+    font-size: 55px;
+    color: #fff;
+    top: 41%;
+    left: 65%;
+}
+.btn-video{
+    margin-top: 15px;
+    background: #fcc302;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #fff;
+}
+
+/*============
+    Title CSS
+=============*/
+.title-section{
+    margin-top: 100px;
+    background: #fcc302;
+}
+.title-section h1{
+    color: #fff;
+    margin-top: 60px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.title-section p{
+    color: #fff;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+.section-item{
+    margin-top: 80px;   
+}
+.section-item h2{
+    color: #fff;
+    margin-top: 35px;
+    font-size: 38px;
+}
+.section-item p{
+    color: #fff;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-bottom: 60px;
+}
+
+/*============
+    Video2 CSS
+=============*/
+.video-section2{
+    margin-top: 130px;
+    position: relative;
+}
+.video-section2 h1{
+    text-align: right;
+    margin-top: 70px;
+    font-size: 47px;
+    font-weight: 500;
+}
+.video-section2 p{
+    text-align: right;
+    font-size: 29px;
+    margin-top: 35px;
+    line-height: 30px;
+}
+.video-section2 .fa{
+    position: absolute;
+    font-size: 55px;
+    color: #fff;
+    top: 41%;
+    left: 65%;
+}
+.btn-video2{
+    text-align: right;
+    margin-top: 15px;
+    background: #fcc302;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #fff;
+    margin-left: 478px;
+}
+
+/*============
+    Title2 CSS
+=============*/
+.title-section2{
+    margin-top: 100px;
+    background: #fcc302;
+}
+.title-section2 h1{
+    color: #fff;
+    margin-top: 60px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.title-section2 p{
+    color: #fff;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+.section-item{
+    margin-top: 80px;   
+}
+.section-item h2{
+    color: #fff;
+    margin-top: 35px;
+    font-size: 35px;
+}
+.btn-video3{
+    margin-top: 15px;
+    background: #00bec9;
+    padding: 6px 34px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+/*============
+    Doctor CSS
+=============*/
+.doctor-section2{
+    margin-top: 100px;
+}
+.doctor-section2 h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.doctor-section2 p{
+    font-size: 33px;
+    width: 60%;
+    margin: 0 auto;
+}
+.section2-item{
+    margin-top: 80px;   
+}
+.section2-item h2{
+    margin-top: 35px;
+    font-size: 35px;
+    color: #000;
+}
+.section2-item p{
+    font-size: 22px;
+    width: 72%;
+    margin: 0 auto;
+    color: #000;
+}
+.social-media{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.social-media ul li{
+    list-style: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline;
+    padding: 0 1px;
+}
+.social-media ul li a .fa{
+    color: #fff;
+    background: #daac00;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 40px;
+}
+
+/*=============
+    Summery CSS
+==============*/
+.summery-section{
+    background: url(../img/background.png) no-repeat center top;
+    background-size: cover;
+    padding: 150px;
+}
+.summery-section h3{
+    color: #fff;
+    padding-top: 45px;
+    font-size: 35px;
+}
+.summery-section h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+/*============
+    Recent CSS
+=============*/
+.recent-section{
+    margin-top: 100px;
+}
+.recent-section h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.recent-section p{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+.item-content2{
+    width: 87%;
+    border: 0.1px solid #d6d6d6;
+}
+.item-content2 h5{
+    padding-top: 15px;
+    font-size: 23px;
+    width: 80%;
+    font-weight: 300;
+    padding-left: 40px;
+}
+.item-content2 h3{
+    color: #00bec9;
+    font-size: 19px;
+    padding-left: 39px;
+}
+.item-content2 h4{
+    margin-top: 22px;
+    margin-left: 35px;
+    color: #00bec9;
+}
+.item-content2 p{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 37px;
+    line-height: 18px;
+    font-weight: 500;
+    padding-top: 12px;
+    color: #000;
+}
+.item-content2 .item-img{
+    width: 101%;
+    margin-left: -3px;
+    margin-top: -1px;
+}
+.item-content3{
+    width: 87%;
+    box-shadow: 1px 6px 20px #d2d0d0;
+}
+.item-content3 h5{
+    padding-top: 15px;
+    font-size: 23px;
+    width: 80%;
+    font-weight: 300;
+    padding-left: 40px;
+}
+.item-content3 h4{
+    margin-top: 22px;
+    margin-left: 35px;
+    color: #00bec9;
+    padding-bottom: 7px;
+}
+.item-content3 h3{
+    color: #00bec9;
+    font-size: 19px;
+    padding-left: 39px;
+}
+.item-content3 p{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 37px;
+    line-height: 18px;
+    font-weight: 500;
+    padding-top: 12px;
+    color: #000;
+}
+.item-content3 .item-img{
+    width: 100%;
+    margin-top: -1px;
+}
+
+/*============
+    Footer CSS
+=============*/
+footer{
+    background: #343434;
+    margin-top: 100px;
+    color: #fff;
+}
+.about-item h1{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.about-item ul li{
+    list-style: none;
+    margin-left: -30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.about-item ul li a{
+    color: #fff;
+
+}
+.title-content{
+    text-align: right;
+}
+.title-content h3{
+    text-align: right;
+    margin-top: 100px;
+    font-size: 33px;
+}
+.title-content p{
+    text-align: right;
+    font-size: 24px;
+}
+.social-media2{
+    margin-top: 20px;
+    text-align: right;
+    padding: 0 5px;
+}
+.social-media2 ul li{
+    list-style: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline;
+}
+.social-media2 ul li a .fa{
+    color: #000;
+    background: #fff;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 42px;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+.form-control2{
+    background: #daac00;
+    display: inline;
+    width: 70%;
+    margin-left: 50px;
+    border: none;
+    height: 65px;
+}
+.btn-search2{
+    background: #0f9fe4;
+    width: 125px;
+    height: 66px;
+    margin-top: -3px;
+    border-radius: 0;
+}
+/*============
+    END CSS
+=============*/
+
+
+/*Media Query For Mobile*/
+
+@media ( min-width: 320px ) and ( max-width: 576px ){
+    .banner-section{ padding: 0; text-align: center; }
+    .banner-section h1{ font-size: 35px; margin-top: 50px; }
+    .banner-section h2{ font-size: 35px; }
+    .banner-section p{ font-size: 18px; margin-top: 20px; }
+    .btn-banner1{ margin-bottom: 40px; }
+    .btn-banner2{ margin-bottom: 40px; }
+    .video-section1{ text-align: center; }
+    .video-section1 h1{ margin: 0; font-size: 30px; }
+    .video-section1 p{ font-size: 18px; }
+    .btn-video{ margin-bottom: 30px; }
+    .video-section1 .fa{ top: 68%; left: 50%; }
+    .title-section h1{ font-size: 40px; }
+    .title-section p{ width: 100%; font-size: 17px; }
+    .video-section2{ text-align: center; }
+    .video-section2 h1{ text-align: center; margin: 0; font-size: 30px; }
+    .video-section2 p{ text-align: center; margin-top: 20px; font-size: 18px; }
+    .btn-video2{ display: block; margin: 0 auto; }
+    .video-section2 .fa{ top: 21%; left: 43%; }
+    .title-section2 h1{ font-size: 40px; }
+    .title-section2 p{ width: 100%; font-size: 17px; }
+    .doctor-section2 h1{ font-size: 30px; }
+    .doctor-section2 p{width: 100%; font-size: 17px; margin-top: 20px; }
+    .section2-item h2{ font-size: 18px; font-weight: 700; }
+    .social-media ul{ margin: 0; padding: 0; }
+    .summery-section{ text-align: center; }
+    .summery-section h3{ font-size: 20px; padding: 0; margin: 20px 0 6px; }
+    .summery-section h1{ font-size: 20px; margin-bottom: 50px; }
+    .recent-section h1{ font-size: 40px; margin: 0; }
+    .recent-section p{ width: 100%; font-size: 18px; margin-top: 20px; }
+    .item-content2 h5{ font-size: 17px; font-weight: 500; }
+    .item-content2 p{ font-size: 15px; width: 86%; }
+    .item-content3 p{ font-size: 15px; width: 86%; }
+    .item-content2{ margin: 0 auto 30px; }
+    .item-content3{ margin: 0 auto 30px; }
+    footer{ text-align: center; }
+    .title-content h3{ text-align: center; margin: 25px 0 0; }
+    .title-content p{ text-align: center; font-size: 17px; }
+    .social-media2{ text-align: center; }
+    .about-item h1{ margin-top: 20px; }
+}
+
